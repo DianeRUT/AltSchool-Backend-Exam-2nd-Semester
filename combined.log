@@ -1,0 +1,30 @@
+{"error":{"code":401},"level":"warn","message":"Invalid token provided.","service":"user-service","timestamp":"2024-04-18T08:13:44.557Z"}
+{"error":{"code":401},"level":"warn","message":"Invalid token provided.","service":"user-service","timestamp":"2024-04-18T08:14:03.721Z"}
+{"error":{"code":401},"level":"warn","message":"Invalid token provided.","service":"user-service","timestamp":"2024-04-18T08:14:08.209Z"}
+{"error":{"code":401},"level":"warn","message":"Unauthorized","service":"user-service","timestamp":"2024-04-18T08:14:10.562Z"}
+{"error":{},"level":"error","message":"Operation `users.findOne()` buffering timed out after 10000ms","service":"user-service","timestamp":"2024-04-18T08:14:27.974Z"}
+{"error":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"661fc\" (type string) at path \"_id\" for model \"Blog\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"661fc\"","value":"661fc","valueType":"string"},"level":"error","message":"Cast to ObjectId failed for value \"661fc\" (type string) at path \"_id\" for model \"Blog\"","service":"user-service","timestamp":"2024-04-18T08:14:50.996Z"}
+{"error":{"code":400},"level":"warn","message":"Required fields, first_name, last_name, email, password","service":"user-service","timestamp":"2024-04-22T12:04:21.953Z"}
+{"error":{"code":500},"level":"warn","message":"Operation `blogs.find()` buffering timed out after 10000ms","service":"user-service","timestamp":"2024-04-22T12:16:51.604Z"}
+{"error":{"code":401},"level":"warn","message":"Unauthorized","service":"user-service","timestamp":"2024-04-22T14:15:21.475Z"}
+{"error":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"$\" (type string) at path \"_id\" for model \"Blog\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"$\"","value":"$","valueType":"string"},"level":"error","message":"Cast to ObjectId failed for value \"$\" (type string) at path \"_id\" for model \"Blog\"","service":"user-service","timestamp":"2024-04-22T14:17:21.634Z"}
+{"error":{"code":400},"level":"warn","message":"Required fields, first_name, last_name, email, password","service":"user-service","timestamp":"2024-04-22T14:20:25.198Z"}
+{"error":{"code":400},"level":"warn","message":"Required fields, first_name, last_name, email, password","service":"user-service","timestamp":"2024-04-22T14:21:06.108Z"}
+{"error":{"code":400},"level":"warn","message":"Required fields, first_name, last_name, email, password","service":"user-service","timestamp":"2024-04-22T14:21:07.922Z"}
+{"error":{"code":400},"level":"warn","message":"Required fields, first_name, last_name, email, password","service":"user-service","timestamp":"2024-04-22T14:21:08.626Z"}
+{"error":{"code":400},"level":"warn","message":"Required fields, first_name, last_name, email, password","service":"user-service","timestamp":"2024-04-22T14:21:14.905Z"}
+{"error":{"code":401},"level":"warn","message":"Unauthorized","service":"user-service","timestamp":"2024-04-22T14:21:29.275Z"}
+{"error":{"code":401},"level":"warn","message":"Unauthorized","service":"user-service","timestamp":"2024-04-22T14:21:49.014Z"}
+{"error":{"code":401},"level":"warn","message":"Unauthorized","service":"user-service","timestamp":"2024-04-22T14:21:50.666Z"}
+{"error":{"code":401},"level":"warn","message":"Unauthorized","service":"user-service","timestamp":"2024-04-22T14:21:59.537Z"}
+{"error":{"code":401},"level":"warn","message":"Unauthorized","service":"user-service","timestamp":"2024-04-22T18:01:06.263Z"}
+{"error":{"body":"\n\"title\": \"Sample Blog\",\n\"description\":\"This is a sample blog\",\n\"state\":\"DRAFT\",\n\"read_count\": \"0\",\n\"reading_time\":\"10\",\n\"body\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\",\n\"author\" : ObjectId(\"66263d1e8c0bf0ef75125abc\"),\n\n\"tags\":[\"sample\", \"blog\", \"mongodb\"],","expose":true,"status":400,"statusCode":400,"type":"entity.parse.failed"},"level":"error","message":"Unexpected token '\"', \"\n\"title\": \"\"... is not valid JSON","service":"user-service","timestamp":"2024-04-22T18:08:10.129Z"}
+{"error":{"body":"{\n\"title\": \"Sample Blog\",\n\"description\":\"This is a sample blog\",\n\"state\":\"DRAFT\",\n\"read_count\": \"0\",\n\"reading_time\":\"10\",\n\"body\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\",\n\"author\" : ObjectId(\"66263d1e8c0bf0ef75125abc\"),\n\n\"tags\":[\"sample\", \"blog\", \"mongodb\"]\n}","expose":true,"status":400,"statusCode":400,"type":"entity.parse.failed"},"level":"error","message":"Unexpected token 'O', ...\"author\" : ObjectId(\"\"... is not valid JSON","service":"user-service","timestamp":"2024-04-22T18:09:25.954Z"}
+{"error":{"code":401},"level":"warn","message":"Unauthorized","service":"user-service","timestamp":"2024-04-22T18:09:54.503Z"}
+{"error":{"code":401},"level":"warn","message":"Unauthorized","service":"user-service","timestamp":"2024-04-22T18:11:09.016Z"}
+{"error":{"code":401},"level":"warn","message":"Unauthorized","service":"user-service","timestamp":"2024-04-22T18:28:06.635Z"}
+{"error":{"code":401},"level":"warn","message":"Unauthorized","service":"user-service","timestamp":"2024-04-22T18:31:23.538Z"}
+{"error":{"code":500},"level":"warn","message":"getaddrinfo ENOTFOUND ac-vtvxwtg-shard-00-01.vswuklu.mongodb.net","service":"user-service","timestamp":"2024-04-22T18:32:58.326Z"}
+{"error":{"code":401},"level":"warn","message":"Unauthorized","service":"user-service","timestamp":"2024-04-22T18:37:47.305Z"}
+{"error":{"code":400},"level":"warn","message":"Required fields, email, password","service":"user-service","timestamp":"2024-04-22T19:20:21.528Z"}
+{"error":{"code":400},"level":"warn","message":"Required fields, email, password","service":"user-service","timestamp":"2024-04-22T19:49:49.668Z"}
