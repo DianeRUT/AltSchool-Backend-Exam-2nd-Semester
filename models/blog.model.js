@@ -41,7 +41,7 @@ const blogSchema = new mongoose.Schema(
 	},
 	{ timestamps: true }
 );
-
+const array = [1, 2, 3];
 array.forEach(element => {
 	const Blog = mongoose.model("Blog", blogSchema);
 	
