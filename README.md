@@ -44,9 +44,9 @@
 
 22 Write tests for all endpoints
 
-[x] Create an ERD for entities and show relationships
+23 Create an ERD for entities and show relationships
 
-[x] Use Winston and ensure functions and processes are logged
+24 Use Winston and ensure functions and processes are logged
 
 
 [def]: ERD.png?raw=true
